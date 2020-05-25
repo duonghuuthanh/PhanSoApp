@@ -15,5 +15,13 @@ namespace PhanSo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                int a = int.Parse(textBox1.Text);
+            }
+        }
     }
 }
