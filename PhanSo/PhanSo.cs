@@ -7,7 +7,7 @@ namespace PhanSo
 {
     public class PhanSo
     {
-        private int tuSo, mauSo;
+        private int tuSo, mauSo;//tu so, mauso
 
         public PhanSo(int t, int m)
         {
