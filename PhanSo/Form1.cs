@@ -15,5 +15,10 @@ namespace PhanSo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int t1 = int.Parse(textBox1.Text);
+        }
     }
 }
